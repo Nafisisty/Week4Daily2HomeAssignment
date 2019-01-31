@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".view.activities.mainactivity.MainActivity">
+
+
+    <EditText
+        android:id="@+id/homeNameEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:hint="Name"/>
+
+    <EditText
+        android:id="@+id/homeLocationEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:hint="Location"/>
+
+    <EditText
+        android:id="@+id/homeBedsEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:hint="Beds"/>
+
+    <EditText
+        android:id="@+id/homeBathsEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:hint="Baths"/>
+
+
+    <Button
+        android:id="@+id/showHomeButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/officeButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GO TO OFFICE"
+        android:onClick="onClick"/>
+</LinearLayout>
